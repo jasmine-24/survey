@@ -1,0 +1,27 @@
+
+#main{
+  text-align: center;
+  margin:30 px;
+  cell-padding: 10px;
+  background-color: grey;
+  font-family: fantasy;
+  font-size: 20px;
+}
+#survey-form{
+  text-align: left;
+  margin: auto;
+}
+#number{
+ height: auto;
+  width:150px;
+}
+#question{
+  text-align: center;
+  font-size:15px;
+}
+#submit{
+ margin: 15 0;
+  padding: 12px 65px;
+ box-sizing: border-box;
+  background-color: green;
+}
