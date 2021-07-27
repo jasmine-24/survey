@@ -1,0 +1,58 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<html>
+  <head>
+    <title> Survey Form </title>
+  </head>
+  <body id="main">
+    <div class="details">
+    <h1 id="title"> General Survey Form</h1>
+    <p id="description"> It is a general survey form for the students to know aboyt their internship status.</p>
+      
+      <form id="survey-form">
+      <label for="name" id="name-label">Name:  </label> 
+  <input type="text" id="name" placeholder="Enter your Name" size="25" required><br>
+  <label for= "email" id="email-label">E-Mail ID:  </label>
+  <input type="email" id="email" size="25" placeholder="Enter your EMail ID"  required><br>
+      <label for="Age" id="number-label">Age:</label>
+  <input type="number" id="number" placeholder="Enter your Age" min="18" max="25" required><br>
+      
+      <label for="intern"> Type of internship </label><br>
+      <input type="radio" id="full-time" name="intern" value="full-time">
+<label for="full-time">Full-Time</label><br>
+<input type="radio" id="part" name="intern" value="part">
+<label for="part">Part-time</label><br>
+<input type="radio" id="wfh" name="intern" value="wfh">
+<label for="wfh">Work From Home</label><br>
+  
+      
+      <label for="dropdown"  id="dropdown">Field in which you want to do internship.</ label><br>
+      <select form="survey-form" id= "dropdown">
+          <option value="" disabled selected>select an option</option>
+          <option value="WebDev">Web Development</option>
+          <option value="AndroidDev"> Android Development</option>
+          <option value="CSecurity">Cyber Security</option>
+        <option value="Testing">Testing <br></option>
+      </select><br>
+      
+      
+      <label for="Skills"> Your Skills: </label>
+      <fieldset>
+        <input type="checkbox" id="skill-check" name="HTML" value="HTML">
+  <label for="html"> HTML</label><br>
+        <input type="checkbox" id="skill-check" name="CSS" value="CSS">
+  <label for="CSS"> CSS</label><br>
+        <input type="checkbox" id="skill-check" name="ProgLang" value="ProgLang">
+  <label for="ProgLang"> Programming Language</label><br>
+        <input type="checkbox" id="skill-check" name=SQL value="SQL">
+  <label for="SQL"> SQL</label><br>
+        <input type="checkbox" id="skill-check" name="Network" value="Network">
+  <label for="Network"> Networking</label><br>
+      </fieldset>
+        <label for="comment">Any Question?</label><br>
+        <textarea rows="5" cols="50" id="question" placeholder=" Any Question? You can drop your query here."></textarea><br>
+        <button type="submit" id="submit">SUBMIT</button>
+        </div>
+      </form>
+        </body>
+      </html>
